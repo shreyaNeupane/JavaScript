@@ -17,7 +17,7 @@ const fullName = "Shreya Neupane";
 
 // let firstName = fullName.slice(0 , fullName.indexOf(" "));
 // let lastName  = fullName.slice(fullName.indexOf(" ") + 1); // you include ending index too.
-// console.log(firstName);
+// // console.log(firstName);
 // console.log(lastName);
 
 
