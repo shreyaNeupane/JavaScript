@@ -23,27 +23,35 @@
 // console.log(foods);
 
 // ---------------To Find Sum ---------------------------
-function sum(...numbers){
-    let result = 0;
+// function sum(...numbers){
+//     let result = 0;
 
-    for(let number of numbers){
-        result +=number;
-    }
-    return result;
+//     for(let number of numbers){
+//         result +=number;
+//     }
+//     return result;
+// }
+// const total = sum(1,2,3);
+
+// console.log(`your total id $${total}`);
+
+// // ------------------ To Find Average ---------------------
+
+// function average(...numbers) {
+//   let result = 0;
+
+//   for (let number of numbers) {
+//     result += number;
+//   }
+//   return result/numbers.length;
+// }
+// const avg= average(1,2,3);
+
+// console.log(`your average is ${avg}`);
+
+function combineString(...strings){
+    return strings.join(" ");
 }
-const total = sum(1,2,3);
+ const fullName = combineString (" Mr." , "Spongebob" , "Squarepants" , "III");
 
-console.log(`your total id $${total}`);
-// ------------------ To Find Average ---------------------
-
-function average(...numbers) {
-  let result = 0;
-
-  for (let number of numbers) {
-    result += number;
-  }
-  return result/numbers.length;
-}
-const avg= average(1,2,3);
-
-console.log(`your average is ${avg}`);
+ console.log(fullName);
