@@ -1,0 +1,48 @@
+#container{
+    width: 50%;
+    border-radius: 4px;
+    background-color: skyblue;
+    padding: 25px;
+   max-width: fit-content;
+    margin-left: auto;
+  margin-right: auto;
+}
+form{
+    margin: auto;
+    text-align: center;
+   
+    
+}
+
+h1{
+        color: rgb(64, 64, 245);
+        
+}
+#textBox{
+    border: 2px solid black;
+    max-width: 90px;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.unit{
+    font-weight:bold;
+    margin: 5px;
+}
+#submit{
+    margin: 5px;
+    font-size: 1.5em;
+    padding: 6px;
+    border-radius: 3px;
+    border-color: red;
+    color: white;
+    background-color: red;
+}
+#submit:hover{
+    cursor: pointer;
+}
