@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+#container{
+  
+    border-radius: 3px;
+    background-color:rgb(234, 228, 229);
+  
+    border: none;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+img{
+   border-radius: 5px;
+   height: 250px;
+   width: 480px;
+}
+#prepTime{
+    background-color: rgb(234, 157, 170);
+    width: 480px;
+    margin : auto;
+    margin-bottom: 7px;
+    padding: 5px;
+    border-radius: 3px;
+}
+#prep{
+    color: rgb(154, 1, 27);
+    font-weight: bold;
+     width: 450px;
+    padding: 4px;
+    
+   
+    
+}
+td{
+    padding-right: 170px;
+}
+#instructions  li::marker{
+
+    color:rgb(154, 1, 27) ;
+    
+
+}
