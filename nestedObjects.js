@@ -3,7 +3,7 @@
 //                  child Object is enclosed by a prent Object.
 
 //                  person{Address{} , ContactInfo{}}
-//                  ShoppingCard{keyword{}, Mouse{} , Monitor}}
+//                  ShoppingCard{keyword{}, Mouse{} , Monitor{}}
 
 // ------------------ EXAMPLE 1 -------------------
 // const person = {

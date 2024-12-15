@@ -1,7 +1,7 @@
 // destructing  = extract values from arrays and objects,
 //                then assign them to variables in a convenient way
 //                [] = to perform array destructuring
-//                {} = to perdorm object destructuring
+//                {} = to perform object destructuring
 
 //-------------EXAMPLE 1------------
 // SWAP THE VALUE OF TWO VARIABLES
