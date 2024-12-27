@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <div id="form">
+        <h1 id="h1">Kyboard Event</h1>
+
+        <p>onkeydown</p> 
+        <!-- works after some other button is clicked  -->
+        <input type="text" onkeydown="document.getElementById
+        ('form').style.background=this.value">
+
+        <p>onkeyup</p>
+        <!-- keypress and output works simultaneously -->
+        <input type="text" onkeyup="document.getElementById
+        ('form').style.background=this.value">
+
+        <p>onkeypress</p>
+        <!-- same as onkeydown but it only reads input as a form ofcharacters and nums and symbols  -->
+        <input type="text" onkeypress="document.getElementById
+        ('form').style.background=this.value">
+       
+    </div>
+</body>
+</html>
